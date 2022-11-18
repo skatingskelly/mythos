@@ -2,5 +2,5 @@ if(first()|duped()){
     function ping(Args:string){
         log(1,"pong \n")
     }
-    Functions["ping",string] == "ping"
+    Functions["ping",string] = "ping"
 }
